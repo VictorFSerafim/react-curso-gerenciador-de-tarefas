@@ -1,5 +1,5 @@
 import React from 'react';
-import { ReactDOM } from 'react-dom';
+import  ReactDOM  from 'react-dom';
 import GerenciadorTarefas from './gerenciador-tarefas';
 
 it('deve renderizar o projeto sem erros', () => {
