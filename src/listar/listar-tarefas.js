@@ -30,7 +30,6 @@ function ListarTarefas() {
     }, [carregarTarefas,paginaAtual]);
 
     function handleMudarPagina(pagina){
-        debugger;
         setPaginaAtual(pagina);
         setCarregarTarefas(true);
     }
